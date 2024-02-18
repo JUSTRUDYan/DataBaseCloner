@@ -10,7 +10,7 @@ Creates a new Docker container, imports a PostgreSQL database dump, and optional
 
 ```bash
 bashCopy code
-./dumpRecover.sh createdumpinstance [options] dump_file_path
+./dumpRecover.sh createdumpinstance [options] -f dump_file_path
 
 ```
 
