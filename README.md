@@ -9,7 +9,6 @@ DumpRecoverSh is a bash script designed to facilitate the process of creating, d
 Creates a new Docker container, imports a PostgreSQL database dump, and optionally cleans up the container afterward.
 
 ```bash
-bashCopy code
 ./dumpRecover.sh createdumpinstance [options] -f dump_file_path.sql
 
 ```
@@ -27,7 +26,6 @@ bashCopy code
 Removes an existing Docker container.
 
 ```bash
-bashCopy code
 ./dumpRecover.sh dropdumpinstance [options]
 
 ```
@@ -41,7 +39,6 @@ bashCopy code
 ### Creating a Database Dump Instance
 
 ```bash
-bashCopy code
 ./dumpRecover.sh createdumpinstance -n mycontainer -d mydatabase -f /path/to/dump.sql -s
 
 ```
@@ -53,7 +50,6 @@ bashCopy code
 ### Dropping a Database Dump Instance
 
 ```bash
-bashCopy code
 ./dumpRecover.sh dropdumpinstance -n mycontainer
 
 ```
