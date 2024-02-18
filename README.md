@@ -1,6 +1,6 @@
-## **DumpRecoverSh - Database Dump and Recovery Tool**
+## **DumpRecoverSh - Database Dump Recovery Tool**
 
-DumpRecoverSh is a bash script designed to facilitate the process of creating, importing, and dropping PostgreSQL database dumps using Docker containers.
+DumpRecoverSh is a bash script designed to facilitate the process of creating, dump importing, and dropping PostgreSQL database dumps using Docker containers.
 
 ### **Usage**
 
