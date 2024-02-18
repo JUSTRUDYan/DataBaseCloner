@@ -10,7 +10,7 @@ Creates a new Docker container, imports a PostgreSQL database dump, and optional
 
 ```bash
 bashCopy code
-./dumpRecover.sh createdumpinstance [options] -f dump_file_path
+./dumpRecover.sh createdumpinstance [options] -f dump_file_path.sql
 
 ```
 
@@ -18,7 +18,7 @@ bashCopy code
 
 - **`n`**: Name of the Docker container (optional, default: postgres).
 - **`d`**: Name of the database (optional, default: postgres).
-- **`f`**: Dump file path (required).
+- **`f`**: SQL dump file path (required).
 - **`s`**: Show import log (optional, default: false).
 - **`e`**: Exit from the container after the "\q" command in PostgreSQL (optional, default: true).
 
