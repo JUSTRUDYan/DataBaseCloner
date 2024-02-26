@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function check_variable {
+check_variable() {
     variable_name="$1"
     parameter_name="$2"
 
@@ -11,10 +11,10 @@ function check_variable {
 }
 
 help_createdumpinstance() {
-    echo "Usage: createdumpinstance [dump_file_path]"
+    echo "Usage: createdumpinstance"
     echo "  -n Name of Docker container (optional). Default: postgres"
     echo "  -d Name of database (optional). Default: postgres"
-    echo "  -f Dump file path (required)"
+    echo "  -f Dump file path (required)."
     echo "  -s Show import log (optional). Default: false"
     echo "  -e Exit from container after \"\\q\" command in PostgreSQL (optional). Default: true"
 }
